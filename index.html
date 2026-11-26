@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lee Wei Xian | Cybersecurity internship candidate, SUTD</title>
+  <meta name="description" content="Lee Wei Xian is a third-year computer systems and security student at SUTD, looking for a blue team internship in Singapore.">
+  
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lee Wei Xian | Cybersecurity internship candidate">
+  <meta property="og:description" content="Third-year computer systems and security student at SUTD. Open to blue team internships in Singapore.">
+  <meta name="theme-color" content="#0A0E1F">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (e) {}
+      var dark = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", saved || dark);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lee Wei Xian",
+    "url": "https://YOUR-USERNAME.github.io/",
+    "alumniOf": "Singapore University of Technology and Design",
+    "jobTitle": "Computer systems and security student",
+    "knowsAbout": ["Digital forensics", "Blue teaming", "Incident response", "SIEM", "Threat intelligence"],
+    "sameAs": ["https://www.linkedin.com/in/wei-xian-lee/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="bar">
+    <a class="brand" href="#top">Lee Wei Xian</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- aria-pressed is kept in sync by main.js -->
+    <button id="themeToggle" class="icon-btn" type="button" aria-pressed="false">Light mode</button>
+  </header>
+
+  <main id="main">
+    <!-- HERO: headline on the left, interactive terminal on the right -->
+    <section id="top" class="hero wrap">
+      <div class="hero-text">
+        <p class="badge">Open to Cybersecurity internships in Singapore</p>
+        <h1>I piece together what happened.</h1>
+        <p class="lead">Third-year Computer Science and Design student at SUTD. I like forensics because every log is a clue and every investigation is a story with an ending.</p>
+        <div class="actions">
+          <a class="btn btn-hire" href="assets/cv.pdf" download>Download CV (TBC)</a>
+          
+          <a class="btn" href="mailto:weixian@outlook.sg">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/wei-xian-lee/" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <section class="term" aria-label="Interactive terminal">
+        <div id="termOut" class="term-out" role="log" aria-live="polite"></div>
+        <form id="termForm" class="term-row" autocomplete="off">
+          <label for="termIn" class="prompt">visitor@peanuts:~$</label>
+          <input id="termIn" type="text" spellcheck="false" autocapitalize="off" aria-describedby="termHint">
+        </form>
+        <p id="termHint" class="hint">Type help to see commands.</p>
+      </section>
+    </section>
+
+    <section id="about" class="wrap">
+      <h2>About</h2>
+      <p>I am trying to be 1% better than I was yesterday. I build quietly.</p>
+      <p>Outside technology, I care about personal health and well-being.</p>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="leadership" aria-pressed="false">Leadership</button>
+        <button type="button" class="chip" data-filter="security" aria-pressed="false">Security</button>
+        <button type="button" class="chip" data-filter="learning" aria-pressed="false">Lessons learned</button>
+      </div>
+      <div class="cards" id="cards">
+        <!-- Each card has data-tags. The filter buttons match against it. -->
+        <article class="card" data-tags="leadership">
+          <h3>Volleyball: player and team manager</h3>
+          <p>Student athlete from 2014 to 2016 in the C and B divisions. I played and also managed the team.</p>
+        </article>
+        <article class="card" data-tags="security">
+        </article>
+
+        <article class="card" data-tags="learning">
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>Security fundamentals</li>
+        <li>Phishing analysis</li>
+        <li>Threat intelligence</li>
+        <li>Digital forensics</li>
+        <li>SIEM</li>
+        <li>Incident response</li>
+      </ul>
+      
+    </section>
+
+    <section id="timeline" class="wrap">
+      <h2>Timeline</h2>
+      <ol class="line">
+        <li><strong>2008 to 2013</strong> Primary school.</li>
+        <li><strong>2014 to 2017</strong> Secondary school | Student athlete in volleyball.</li>
+        <li><strong>2018 to 2021</strong> Singapore Polytechnic | Completed diploma in Information Technology.</li>
+        <li><strong>2021 to 2023</strong> National Service. Obligatory military service in the Singapore Armed Forces.</li>
+        <li><strong>2024 to 2028</strong> Singapore University of Technology and Design. Reading Computer Science and Design.</li>
+      </ol>
+    </section>
+    <section id="resume" class="wrap">
+      <h2>Resume</h2>
+      <a class="btn btn-hire" href="assets/-" download>Download CV (TBC)</a>
+    </section>
+
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <form id="contactForm" class="form" data-email="weixian@outlook.sg">
+        <label for="cName">Your name</label>
+        <input id="cName" name="name" type="text" required autocomplete="name">
+        <label for="cMail">Your email</label>
+        <input id="cMail" name="email" type="email" required autocomplete="email">
+        <label for="cMsg">Message</label>
+        <textarea id="cMsg" name="message" rows="5" required></textarea>
+        <button class="btn btn-hire" type="submit">Open in my email app</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>&copy; <span id="year"></span> Peanuts</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
